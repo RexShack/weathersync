@@ -10,21 +10,21 @@ url "https://github.com/kibook/weathersync"
 ui_page "ui/index.html"
 
 files {
-	"ui/index.html",
-	"ui/style.css",
-	"ui/script.js",
-	"ui/CHINESER.TTF"
+    "ui/index.html",
+    "ui/style.css",
+    "ui/script.js",
+    "ui/CHINESER.TTF"
 }
 
 shared_scripts {
-	"shared.lua",
-	"config.lua"
+    "shared.lua",
+    "config.lua"
 }
 
 client_scripts {
-	"client.lua"
+    "client.lua"
 }
 
 server_scripts {
-	"server.lua"
+    "server.lua"
 }
